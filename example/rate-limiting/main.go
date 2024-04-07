@@ -10,8 +10,8 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/go-redis/redis_rate/v9"
 
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
+	"github.com/bobTheBuilder7/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter/extra/reqlog"
 )
 
 var ErrRateLimited = errors.New("rate limited")

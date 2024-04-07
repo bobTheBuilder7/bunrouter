@@ -1,7 +1,7 @@
 # Fast and flexible HTTP router for Go
 
-[![build workflow](https://github.com/uptrace/bunrouter/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bunrouter/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/uptrace/bunrouter)](https://pkg.go.dev/github.com/uptrace/bunrouter)
+[![build workflow](https://github.com/bobTheBuilder7/bunrouter/actions/workflows/build.yml/badge.svg)](https://github.com/bobTheBuilder7/bunrouter/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/bobTheBuilder7/bunrouter)](https://pkg.go.dev/github.com/bobTheBuilder7/bunrouter)
 [![Documentation](https://img.shields.io/badge/bunrouter-documentation-informational)](https://bunrouter.uptrace.dev/)
 [![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
 
@@ -42,7 +42,7 @@ BunRouter is an extremely fast HTTP router for Go with unique combination of fea
 Learn:
 
 - [Documentation](https://bunrouter.uptrace.dev/)
-- [Reference](https://pkg.go.dev/github.com/uptrace/bunrouter)
+- [Reference](https://pkg.go.dev/github.com/bobTheBuilder7/bunrouter)
 
 Examples:
 
@@ -124,7 +124,7 @@ BenchmarkBunrouter_StaticAll     	   99674	     12188 ns/op	       0 B/op	      
 Install:
 
 ```shell
-go get github.com/uptrace/bunrouter
+go get github.com/bobTheBuilder7/bunrouter
 ```
 
 Run the [example](/example/basic/):
@@ -137,8 +137,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
+	"github.com/bobTheBuilder7/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter/extra/reqlog"
 )
 
 func main() {

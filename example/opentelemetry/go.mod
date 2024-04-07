@@ -1,18 +1,18 @@
-module github.com/uptrace/bunrouter/example/opentelemetry
+module github.com/bobTheBuilder7/bunrouter/example/opentelemetry
 
 go 1.17
 
-replace github.com/uptrace/bunrouter => ../..
+replace github.com/bobTheBuilder7/bunrouter => ../..
 
-replace github.com/uptrace/bunrouter/extra/reqlog => ../../extra/reqlog
+replace github.com/bobTheBuilder7/bunrouter/extra/reqlog => ../../extra/reqlog
 
-replace github.com/uptrace/bunrouter/extra/bunrouterotel => ../../extra/bunrouterotel
+replace github.com/bobTheBuilder7/bunrouter/extra/bunrouterotel => ../../extra/bunrouterotel
 
 require (
 	github.com/klauspost/compress v1.17.3
-	github.com/uptrace/bunrouter v1.0.21
-	github.com/uptrace/bunrouter/extra/bunrouterotel v1.0.21
-	github.com/uptrace/bunrouter/extra/reqlog v1.0.21
+	github.com/bobTheBuilder7/bunrouter v1.0.21
+	github.com/bobTheBuilder7/bunrouter/extra/bunrouterotel v1.0.21
+	github.com/bobTheBuilder7/bunrouter/extra/reqlog v1.0.21
 	github.com/uptrace/opentelemetry-go-extra/otelplay v0.2.3
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.46.1
 	go.opentelemetry.io/otel/trace v1.21.0

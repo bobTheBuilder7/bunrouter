@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/reqlog"
+	"github.com/bobTheBuilder7/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter/extra/reqlog"
 )
 
 func main() {

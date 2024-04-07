@@ -11,7 +11,7 @@ import (
 	"github.com/felixge/httpsnoop"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/uptrace/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter"
 )
 
 type middleware struct {

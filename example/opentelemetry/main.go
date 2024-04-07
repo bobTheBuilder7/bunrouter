@@ -10,10 +10,10 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel/trace"
 
+	"github.com/bobTheBuilder7/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter/extra/bunrouterotel"
+	"github.com/bobTheBuilder7/bunrouter/extra/reqlog"
 	"github.com/klauspost/compress/gzhttp"
-	"github.com/uptrace/bunrouter"
-	"github.com/uptrace/bunrouter/extra/bunrouterotel"
-	"github.com/uptrace/bunrouter/extra/reqlog"
 	"github.com/uptrace/opentelemetry-go-extra/otelplay"
 )
 

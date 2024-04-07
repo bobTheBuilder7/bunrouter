@@ -1,16 +1,16 @@
-module github.com/uptrace/bunrouter/example/rate-limiting
+module github.com/bobTheBuilder7/bunrouter/example/rate-limiting
 
 go 1.17
 
-replace github.com/uptrace/bunrouter => ../..
+replace github.com/bobTheBuilder7/bunrouter => ../..
 
-replace github.com/uptrace/bunrouter/extra/reqlog => ../../extra/reqlog
+replace github.com/bobTheBuilder7/bunrouter/extra/reqlog => ../../extra/reqlog
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-redis/redis_rate/v9 v9.1.2
-	github.com/uptrace/bunrouter v1.0.21
-	github.com/uptrace/bunrouter/extra/reqlog v1.0.21
+	github.com/bobTheBuilder7/bunrouter v1.0.21
+	github.com/bobTheBuilder7/bunrouter/extra/reqlog v1.0.21
 )
 
 require (

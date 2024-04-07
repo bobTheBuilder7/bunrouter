@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/uptrace/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter"
 )
 
 type middleware struct {

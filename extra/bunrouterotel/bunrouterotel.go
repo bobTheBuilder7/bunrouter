@@ -9,7 +9,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/uptrace/bunrouter"
+	"github.com/bobTheBuilder7/bunrouter"
 )
 
 type config struct {
