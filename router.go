@@ -15,7 +15,7 @@ type Router struct {
 	tree node
 }
 
-func New(opts ...Option) *Router {
+func New(errHandler func(http.ResponseWriter, *http.Request, error), opts ...Option) *Router {
 	r := &Router{
 		tree: node{
 			part: "/",
@@ -24,6 +24,7 @@ func New(opts ...Option) *Router {
 
 	r.Group.router = r
 	r.config.group = &r.Group
+	r.config.errorHandler = errHandler
 	r.methodNotAllowedHandler = methodNotAllowedHandler
 
 	for _, opt := range opts {
