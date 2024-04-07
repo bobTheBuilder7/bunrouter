@@ -1,4 +1,4 @@
-module github.com/uptrace/bunrouter
+module github.com/bobTheBuilder7/bunrouter
 
 go 1.17
 
