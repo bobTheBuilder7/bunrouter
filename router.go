@@ -42,7 +42,7 @@ var _ http.Handler = (*Router)(nil)
 
 // ServeHTTP implements http.Handler interface.
 func (r *Router) ServeHTTP(w http.ResponseWriter, req *http.Request) {
-	_ = r.ServeHTTPError(w, req)
+	r.config.errorHandler(w, req, r.ServeHTTPError(w, req))
 }
 
 // ServeHTTPError is like ServeHTTP, but it also returns the error returned

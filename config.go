@@ -5,7 +5,7 @@ import "net/http"
 type config struct {
 	notFoundHandler         HandlerFunc
 	methodNotAllowedHandler HandlerFunc
-	errorHandler            func(w http.ResponseWriter, req Request, err error)
+	errorHandler            func(w http.ResponseWriter, req *http.Request, err error)
 
 	group *Group
 }
@@ -37,7 +37,7 @@ func WithMethodNotAllowedHandler(handler HandlerFunc) Option {
 	})
 }
 
-func WithErrorHandler(handler func(w http.ResponseWriter, req Request, err error)) Option {
+func WithErrorHandler(handler func(w http.ResponseWriter, req *http.Request, err error)) Option {
 	return option(func(c *config) {
 		c.errorHandler = handler
 	})
